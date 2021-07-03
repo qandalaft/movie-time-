@@ -1,4 +1,4 @@
-/*alert ("welcome to movie time site ")
+alert ("welcome to movie time site ")
  var name = prompt("Enter your name please ")
  alert ("welcome "+name+" now Enter your age please")
  var age = prompt()
@@ -51,7 +51,7 @@ while("Killua" != ask){
  }else{
    alert("you Just can inception or hunter x hunter movie  ")
    
- }*/
+ }
 
 
   
