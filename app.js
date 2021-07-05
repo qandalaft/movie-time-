@@ -8,19 +8,26 @@ alert ("welcome to movie time site ")
  else  {
   alert("sorry our site is 18+!!") 
   }
-   
-var gender = prompt()
+  function whatgender (){
+  var gender = prompt()
+  
 if (gender =="he"){
-  alert("welcome "+"Mr. "+name)
+ var he =  alert("Mr. "+name);
 }
 else if (gender=="she"){
-   alert("welcome "+"Mrs. "+name)
+ var she = alert("Mrs. "+name);
 }
 else {
   alert("sorry you can Enter just she or he!!!!!") 
 }
+return true;
+  }
+
+   
 // Lab: 05 - Operators and Loops
 // first Requirement 
+
+
 var ask = prompt("hello agin "+name+" Enter the most fantastic character in Hanter X Hanter Anime you can Choose from the following  :-  A)gon , B)Killua , C)Kurapika   ")
  if("Killua" == ask){
 
@@ -52,9 +59,18 @@ while("Killua" != ask){
    alert("you Just can inception or hunter x hunter movie  ")
    
  }
+function sub (x,y){
+  var z = x-y;
+  return z;
 
+}
+ var input1 = parseInt( prompt (" Enter the first number"))
+var input1 = parseInt( prompt (" Enter the 2nd number"))
+var result =sub ((input1),(input1)) ;
+alert ("the result is  " + result );
 
-  
+whatgender();
+alert ("thank you  "+ whatgender() + "to use our sit " )
 
 
 
